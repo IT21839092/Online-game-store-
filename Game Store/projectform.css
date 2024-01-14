@@ -1,0 +1,281 @@
+body{
+	margin:0;
+	background-image:url("img/bg.png");
+    background-position:auto;
+    background-repeat:no-repeat;
+	background-size:cover;
+}
+
+table.tab1{
+	background-color: black;
+}
+p{
+	transform: translate(100px);
+	margin-left:auto;
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 1px 5px;
+	color: white;
+}
+a.set1{
+	transform: translate(325px);
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+a.set2{
+	transform: translate(345px);
+	margin-left:auto;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+a.set3{
+	transform: translate(365px);
+	margin-left:auto;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+a.set4{
+	transform: translate(385px);
+	margin-left:auto;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+a.set5{
+	transform: translate(405px);
+	margin-left:auto;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+a.set6{
+	transform: translate(695px);
+	margin-left:auto;
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 10px;
+
+}
+a.set7{
+	transform: translate(700px);
+	margin-left:auto;
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 10px;
+
+}
+a.set1:hover{
+	background-color: lightslategray;
+	display: block;
+}
+a.set2:hover{
+	background-color: lightslategray;
+	display: block;
+}
+a.set3:hover{
+	background-color: lightslategray;
+	display: block;
+}
+a.set4:hover{
+	background-color: lightslategray;
+	display: block;
+}
+a.set5:hover{
+	background-color: lightslategray;
+	display: block;
+}
+a.set6:hover{
+	background-color: lightslategray;
+	display: block;
+}
+a.set7:hover{
+	background-color: lightslategray;
+	display: block;
+}
+
+label{
+	color:white;
+}
+
+
+.menu{
+	
+list-style-type:none;
+padding:0px;
+margin:0px;
+overflow:hidden;
+background-color:black;
+	
+}
+.menu1{
+	
+	float:left;
+	
+}
+
+.menu2{
+
+display:block;
+color:white;
+text-decoration:none;
+text-align:center;
+padding:14px 30px;	
+	
+}
+li a:hover{
+	background-color:grey;
+	
+}
+.menu3{
+
+padding:50px;
+
+	
+}
+.menu4{
+	
+	color:white;
+	text-align:center;
+	
+}
+.menu5{
+	
+    margin-left:auto;
+	margin-right:auto;
+    width:50%;	
+	padding: 2rem;
+    box-shadow: 5px 5px 5px 0px #FFFFFF, inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 5px 5px 5px 0px #FFFFFF, inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(0,0,0,0);
+	
+}
+.menu6{
+
+padding:5px 5px 5px 5px;
+background-color:white;	
+border: 6px outset #1C6EA4;
+border-radius: 50px;
+	
+}
+.menu7{
+	
+	
+	background-color:black;
+	padding:10px 100px 10px 100px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:white;
+	font-size:20px;
+	border: 6px outset;
+	border-radius: 50px;
+	
+}
+
+.menu7:hover{
+	background-color:royalblue;
+}
+
+.menu8{
+	padding:5px 5px 5px 5px;
+	background-color:white;  
+	border: 6px outset #1C6EA4;
+	border-radius: 50px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: bottom;
+}
+
+.footer-top {
+    color: white;
+    background-color: gray;
+    padding: 40px 0;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 17px 0;
+}
+
+.footer-top-body, .footer-bottom-body {
+    margin: auto;
+    text-align: center;
+}
+
+.footer-top-body {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-bottom: 13px;
+    width: 80%;
+}
+
+.footer-top-body p {
+    font-size: 18px;
+}
+
+.footer-bottom-body {
+    width: 60%;
+}
+
+.footer-flex {
+    display: flex;
+}
+
+.footer-body-div {
+    width: 33.33%;
+}
+
+
+.footer-social-media {
+    margin: auto;
+    width: 60%;
+    display: flex;
+}
+
+.footer-social-media a {
+    width: 25%;
+    font-size: 30px;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.footer-social-media a:hover{
+    color: #E0E0E0 !important;
+}
+
+footer div.footer-bottom a {
+    color: white !important;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
+footer div.footer-bottom a:hover {
+    font-weight: bold;
+    font-size: 22px;
+    transition-duration: 0.3s;
+}

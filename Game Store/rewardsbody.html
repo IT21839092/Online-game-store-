@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/rewards.css">
+        <script src="rewards.js"></script>
+        <style>
+            body{
+                background-image: url('images/bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+            }       
+        </style>
+    </head>
+    <body>
+        <div class="upper">
+            <h1>Click and Collect Rewards!</h1>
+        </div>
+
+        <div class="middle">
+            <form action="rewards.php" method="POST">
+                <div class="img1">
+                    <img src="images\grey.jpg"><br/>
+                    <input type="radio" name="rewards" id="rew1" value="Reward A">
+                    <label for="rewardA">Reward A</label>
+                    <br/><p>Click!</p>
+                </div>
+                <div class="img2">
+                    <img src="images\grey.jpg"><br/>
+                    <input type="radio" name="rewards" id="rew2" value="Reward B">
+                    <label for="rewardB">Reward B</label>
+                    <br/><p>Click!</p>
+                </div>
+                <div class="img3">
+                    <img src="images\grey.jpg"><br/>
+                    <input type="radio" name="rewards" id="rew3" value="Reward C">
+                    <label for="rewardC">Reward C</label>
+                    <br/><p>Click!</p>
+                </div>
+                <div class="img4">
+                    <img src="images\grey.jpg"><br/>
+                    <input type="radio" name="rewards" id="rew4" value="Reward D">
+                    <label for="rewardD">Reward D</label>
+                    <br/><p>Click!</p>
+                </div>
+
+                </div>
+                <div class="lower">
+                    <input type="text" id="rId" name="rewardID" placeholder="Enter the Reward ID" value="""><br/><br/><br/>
+                        <button class="btn" onclick="btn1()" name="collect">Collect</button>
+                </div>
+            </form>
+    </body>
+</html>
