@@ -1,0 +1,41 @@
+.footer1,.footer2{
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.644);
+  color: rgb(248, 248, 248);
+}
+
+.footer1{
+  height: 150px;
+}
+
+.footer2{
+  height: 75px;
+  font-weight: bold;
+  word-spacing: 120px;
+}
+
+.foot1, .foot2, .foot3{
+  border: none; 
+  width: 33.33%; 
+  height: 100px; 
+  font-family: 'Inter', sans-serif;
+}
+
+.foot1{
+  float: left;
+}
+
+.foot2{
+  float: left;
+  
+}
+.foot3{
+  float: right;
+  padding-top: 60px;
+}
+
+a{
+  color: rgb(248, 248, 248);
+}

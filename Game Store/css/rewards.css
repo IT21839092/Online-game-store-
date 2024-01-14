@@ -1,0 +1,102 @@
+body{
+    height: 160vh;
+    color: black;
+}
+.upper, .middle, .lower{
+    border: none; 
+    width: 100%; 
+    font-family: monospace;
+
+}
+
+.upper{
+    float: top;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 170, 0);
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+.middle label{
+    color: black;
+    font-size: 15pt;
+    background-color: rgba(255, 170, 0, 0.67);
+}
+
+.middle p{
+    color: black;
+    font-size: 10pt;
+    background-color: rgba(255, 170, 0, 0.67);
+}
+
+.middle{
+    float: bottom;
+    height: 70vh;
+}
+
+.lower{
+    float: bottom;
+    height: 130px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+.lower input {
+    position: relative;
+    left: 34vw;
+    width: 30%;
+    padding: 12px 80px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+img{
+    width:200px; 
+    height:200px;
+    opacity: 0.5;
+}
+
+.img1,.img2,.img3,.img4{
+    position:absolute; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.img1{
+    left:70px; 
+    top:30vh;
+}
+
+.img2{
+    left:420px; 
+    top:50vh;
+}
+.img3{
+    left:820px; 
+    top:50vh;
+}
+.img4 {
+    left:1200px; 
+    top:30vh;
+}
+
+.btn{
+    position: absolute;
+    background-color: rgba(243, 154, 11, 0.759);
+    left: 40%;
+    margin: 10px;
+    align-content: center;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

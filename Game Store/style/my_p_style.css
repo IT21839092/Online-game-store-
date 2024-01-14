@@ -1,0 +1,89 @@
+div.box{
+	margin: 0;
+	padding: 2rem;
+	box-shadow: 5px 5px 5px 0px white, inset 4px 4px 15px 0px white, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 5px 5px 5px 0px white, inset 4px 4px 15px 0px white, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+p.title{
+	margin: 0;
+	font-family: serif;
+	color: white;
+	font-size: 5vh;
+}
+
+input[type="text"] {
+    display: block;
+    width: calc(70% - 30px); /*20px [ left & Right ] padding + 4px border [ left & Right ] */ 
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+button{
+ 	background-color: darkgoldenrod; 
+ 	text-align: center;
+ 	font-size: 16px;
+ 	transform: translate(150px);
+	padding: 14px 16px;
+}
+
+button:hover{
+	text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    transition-duration: 0.3s;
+}
+
+.games{
+   padding: 3rem;
+   max-width: 1150px;
+   margin: 0 auto;
+   font-size: 30px;
+}
+
+
+.box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(18rem, 2fr));
+   gap: 2.0rem;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+
+.funny{
+   margin-bottom: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.funny img{
+   width: 5rem;
+   height: 5rem;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: .5rem;
+}
+
+.funny h3{
+   font-size: 2rem;
+   color: white;
+   margin-bottom: .2rem;
+}
+
+
+.thumb{
+   width: 100%;
+   border-radius: .5rem;
+   height: 20rem;
+   object-fit: cover;
+
+}
+
+.games .box-container .box .title{
+   font-size: 18px;
+   color: white;
+   margin-top: .5rem;
+   padding: .5rem 0;
+}

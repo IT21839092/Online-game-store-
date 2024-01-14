@@ -1,0 +1,90 @@
+form{ 
+	text-align:center; 
+	width:50%; 
+} 
+
+h4{
+	text-align:left;
+	color:white;
+	font-size:25px;
+}
+
+h1{
+	color:white;
+	font-size:50px;
+}
+
+h2{
+	color:white;
+}
+
+label{
+	color:white;
+}
+
+.d1{
+	margin-left:auto;
+    margin-right:auto;
+    width:50%; 
+	padding: 2rem;
+    box-shadow: 5px 5px 5px 0px #FFFFFF, inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 5px 5px 5px 0px #FFFFFF, inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.tab2{
+	padding: 2rem;
+    box-shadow: 5px 5px 5px 0px #FFFFFF, inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 5px 5px 5px 0px #FFFFFF, inset 4px 4px 15px 0px #FFFFFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.txt{
+	padding:5px 5px 5px 5px;
+	background-color:white;  
+	border: 6px outset #1C6EA4;
+	border-radius: 50px;
+}
+
+.sl{
+	padding:5px 250px 5px 250px;
+	background-color:white;  
+}
+
+#txt_A{
+	height:70px;
+	width:500px;
+}
+
+hr{
+	border:7px solid black;
+}
+
+#txt_help{
+	margin:0;
+	margin-right:0;
+	color:white;
+	text-align:left;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.payB{
+	background-color:silver;
+	padding:14px;
+	border: 6px outset #1C6EA4;
+	border-radius: 50px;
+}
+
+.payB:hover{
+	background-color:lightsteelblue;
+}
+
+button{
+	background-color:silver;
+	padding:14px;
+	border: 6px outset #1C6EA4;
+	border-radius: 50px;
+}
+
+button:hover{
+	background-color:lightsteelblue;
+}
